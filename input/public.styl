@@ -9,7 +9,632 @@ background:rgba(255,255,255,.8);
 
 filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
 
-.w{max-width: 1340px;width: 100%;margin: 0 auto;}
+
+
+                a.public-btn
+                    display block
+                    width 213px
+                    height 52px
+                    font-size 26px
+                    color #cd0708
+                    font-weight bold
+                    text-align center
+                    line-height 52px
+                    background url(../img/hico8.png) center center no-repeat
+                    &.fn
+                        font-weight normal
+
+.tabs-wrap
+    .tabs-control
+        .active
+            border none
+        width 1160px
+        margin 2px auto 0
+        overflow hidden
+        background url(../img/hico2.png) left top
+        border 1px solid #f9e200
+        box-shadow 2px 2px 10px #333,
+        -2px -2px 10px #333 
+        padding 6px 10px 0
+        box-sizing border-box
+        a
+            padding 0 40px
+            float left
+            font-size 20px
+            color #cd0708
+            line-height 56px
+            font-weight bold
+            border none
+            &:hover,
+            &.active
+                color #f1b728
+                background url(../img/hico3.png) center center /100% 100% no-repeat
+                border none
+    .tabs-content
+        &>*
+            display none
+            &.active
+                display block
+                border none
+        .one
+            min-height 629px
+            background url(../img/hico6.png) center top no-repeat
+            .content
+                margin 0 auto
+                padding 80px 30px
+                box-sizing border-box
+                width 1100px
+                background url(../img/hico7.png) 80% 90px no-repeat
+                h3
+                    padding-bottom 10px
+                    font-size 20px
+                    color #cd0708
+                    font-weight bold
+                p
+                    padding 10px 0 20px
+                    font-size 16px
+                    color #ab5c00
+                    line-height 2
+        .two
+            padding-top 40px
+            min-height 1100px
+            box-sizing border-box
+            background url(../img/hico4.png) center top no-repeat
+        .three
+            padding-top 60px
+            min-height 1200px
+            box-sizing border-box
+            background url(../img/hico10.png) center top no-repeat
+            .w1100
+                width 1100px
+                margin 0 auto
+            .left
+                float left
+                width 715px
+                .gift
+                    position relative
+                    margin 0 42px 15px 30px
+                    padding 0 0 10px 40px
+                    background #fedddf
+                    border 5px solid #ae020e
+                    border-radius 20px
+                    .poa
+                        position absolute
+                        top 0
+                        width 50px
+                        height 59px
+                        display block
+                        &.left
+                            left 0
+                            margin-top -25px
+                            margin-left -30px
+                        &.right
+                            right 0
+                            margin-top -25px
+                            margin-right -30px
+                    h3
+                        font-size 22px
+                        color #ae020e
+                        line-height 2
+                    p
+                        font-size 18px
+                        color #613700
+                        line-height 2
+                .rule
+                    margin 0 42px 15px 30px
+                    font-size 16px
+                    color #ab5c00
+                    line-height 2
+                    span
+                        color #ae020e
+                .list
+                    margin-left 15px
+                    li
+                        float left
+                        margin-top 40px
+                        margin-left 15px
+                        img
+                            display block
+                            width 200px
+                        h3
+                            font-size 16px
+                            color #7d0300
+                            line-height 2
+                            padding 5px 0
+                            text-align center
+                        a.public-btn
+                            font-weight normal
+                            letter-spacing 3px
+                            padding-left 3px
+                            color #a76302
+                            width 122px
+                            height 39px
+                            margin 0 auto
+                            background-size 100% 100%
+                            line-height 39px
+                            font-size 14px
+                    
+                            
+            .right
+                float left
+                .gift
+                    box-sizing border-box
+                    padding 10px 15px
+                    font-size 20px
+                    color #7d0300
+                    line-height 32px
+                    width 340px
+                    height 259px
+                    background url(../img/hico12.png) center center no-repeat
+                    p
+                        padding 15px 0 30px
+                        font-size 16px
+                        color #df8803
+                    .public-btn
+                        margin 0 auto
+                        font-size 18px
+                        color #c40007
+                .rank
+                    margin-top 30px
+                    width 340px
+                    height 308px
+                    background url(../img/hico13.png) center center no-repeat
+                    h3
+                        font-size 16px
+                        color #fff193
+                        line-height 28px
+                        text-align center
+                    ul
+                        padding 2px 25px 0
+                        li
+                            overflow hidden  
+                            div
+                                float left
+                                font-size 16px
+                                color #fff193
+                                line-height 30px
+                                &.w60
+                                    width 60%
+                                &.w40
+                                    width 40%
+                                &.title
+                                    color #ffc4c8
+                                    font-weight bold
+                                &.ti2
+                                    text-indent 2em
+                                &.cffc4c8
+                                    color #ffc4c8
+                        &.get
+                            padding 4px 25px
+                            li
+                                div
+                                    line-height 26px
+        
+        .four
+            padding-top 60px
+            min-height 1200px
+            box-sizing border-box
+            background url(../img/hico10.png) center top no-repeat
+            .w1100
+                position relative
+                width 1100px
+                margin 0 auto
+                background url(../img/hico24.png) center 130px no-repeat
+                h3
+                    text-align center
+                    font-size 37px
+                    color #ce0201
+                    line-height 1
+                    b
+                        font-size 48px
+                        font-family 'Impact'
+                        font-weight bold
+                        line-height 0
+                        padding 0 10px
+                        vertical-align middle
+                .public-btn
+                    width 190px
+                    height 40px
+                    margin 20px auto
+                    line-height 40px
+                    font-size 20px
+                    text-align center
+                    font-weight bold
+                    background-size 100% 100%
+                .chunlian
+                    margin-left 382px
+                    width 328px
+                    height 722px
+                    background url(../img/hico25.png) center top no-repeat
+                    h3
+                        padding 15px 0 5px
+                        font-size 36px
+                        color #fcc270
+                        line-height 1
+                        letter-spacing 6px
+                    .sub
+                        text-align center
+                        letter-spacing 22px
+                        font-size 18px
+                        color #fff
+                        span
+                            letter-spacing 0
+                    .left
+                    .right
+                        width 102px
+                        box-sizing border-box
+                        padding 110px 23px 0
+                        .item
+                            font-size 36px
+                            line-height 1
+                            color #fcc270
+                        .num
+                            line-height 1.5
+                            font-size 18px
+                            color #e0ccb0
+                            text-align right
+                .give   
+                    position absolute
+                    right 40px
+                    top 40px
+                    width 340px
+                    height 259px
+                    background url(../img/hico12.png) center center no-repeat
+                    box-sizing border-box
+                    padding 10px 20px
+                    display none
+                    .close
+                        position absolute
+                        right 0
+                        top 0
+                        margin-top -10px
+                        margin-right -10px
+                        cursor pointer
+                    h3
+                        font-size 22px
+                        color #ce0201
+                        line-height 1.5
+                        text-align left
+                    .list
+                        padding-top 7px
+                        li
+                            padding-top 10px
+                            width 100%
+                            .w40
+                                width 40%
+                                min-height 1px
+                            .w60
+                                width 60%
+                                min-height 1px
+                            .text
+                                font-size 16px
+                                color #e2890b
+                                line-height 36px
+                                text-align right
+                            .input
+                                display block
+                                padding-left 10px
+                                box-sizing border-box
+                                height 36px
+                                width 80%
+                                line-height 34px
+                                border 1px solid #d5d5d5
+                                background #f6f6f6
+                                font-size 16px
+                                color #696969
+                                outline none
+                            a
+                                display block
+                                width 90px
+                                height 36px
+                                font-size 22px
+                                color #fff
+                                background #ce0201
+                                letter-spacing 3px
+                                text-align center
+                                line-height 36px
+                
+                            
+
+.footer      
+    font-size 14px
+    color #fff
+    line-height 2
+    padding 40px 0 70px
+    text-align center
+        
 body{
 	font-size: 100%;
 }
+
+
+
+.div-main {
+	width: 100%;
+	overflow: hidden;
+}
+
+
+
+
+
+
+.doubleDan2016_box03 {
+	height: 584px;
+    background: url(../img/doubleDan_3.png) center 2px no-repeat; 
+}
+
+.doubleDan2016_box03 .lottery-box {
+	width: 950px;
+	padding-top: 8px;
+	padding-left: 2px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.doubleDan2016_box03 .lottery-box .lottery {
+	width: 146px;
+	height: 103px;
+	overflow:hidden;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div {
+	width: 100%;
+	height: 100%;
+	background: url() no-repeat 50% 50%;
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img1 {
+	background-image: url(../img/cj_01.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img2 {
+	background-image: url(../img/cj_02.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img3 {
+	background-image: url(../img/cj_03.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img4 {
+	background-image: url(../img/cj_04.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img5 {
+	background-image: url(../img/cj_05.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img6 {
+	background-image: url(../img/cj_06.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img8 {
+	background-image: url(../img/cj_07.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img10 {
+	background-image: url(../img/cj_08.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img12 {
+	background-image: url(../img/cj_09.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img18 {
+	background-image: url(../img/cj_10.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img17 {
+	background-image: url(../img/cj_11.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img16 {
+	background-image: url(../img/cj_12.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img15 {
+	background-image: url(../img/cj_13.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img14 {
+	background-image: url(../img/cj_14.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img13 {
+	background-image: url(../img/cj_15.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img11 {
+	background-image: url(../img/cj_16.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img9 {
+	background-image: url(../img/cj_17.png)
+}
+
+.doubleDan2016_box03 .lottery-box .lottery > div.img7 {
+	background-image: url(../img/cj_18.png)
+}
+
+.active {
+	border: 3px solid #CC0000;
+}
+
+    .btn_ {
+    	position: absolute;
+    	top: 689px;
+    	left: 272px;
+    	z-index: 3;
+    	width: 191px;
+    	height: 51px;
+    }
+
+    .btn_ a {
+    	width: 191px;
+    	height: 51px;
+    	background: url(../img/btn_bg_2.jpg);
+    	display: block;
+    }
+
+    .btn_ a:hover {
+    	background: url(../img/btn_bg2.jpg);
+    }
+
+    .btn_1 {
+    	position: absolute;
+    	top: 689px;
+    	left: 500px;
+    	z-index: 3;
+    	width: 191px;
+    	height: 51px;
+    }
+
+    .btn_1 a {
+    	width: 191px;
+    	height: 51px;
+    	background: url(../img/btn_bg3.jpg);
+    	display: block;
+    }
+
+    .btn_1 a:hover {
+    	background: url(../img/btn_bg4.jpg);
+    }
+
+    .btn_2 {
+    	position: absolute;
+    	top: 790px;
+    	left: 373px;
+    	z-index: 3;
+    	width: 191px;
+    	height: 51px;
+    }
+
+    .btn_2 a {
+    	width: 223px;
+    	height: 61px;
+    	background: url(../img/btn_bg7.jpg);
+    	display: block;
+    }
+
+    .btn_2 a:hover {
+    	background: url(../img/btn_bg6.jpg);
+    }
+    .doubleDan2016_box03 .lottery-box .message {
+       background: url(../img/icon_notice.png) no-repeat 10px 50% #e2c38a;   
+        width: 550px;
+        height: 30px;
+        background-size: 20px;
+        border-radius: 5px;
+        padding-left: 36px;
+        position: absolute;
+        top: 142px;
+        left: 180px;
+        z-index: 10;
+        font-size: 12px;
+        color: #666;
+        line-height: 30px;
+        overflow: hidden
+    }
+
+    .doubleDan2016_box03 .lottery-box .message strong {
+    	color: #CC0000;
+    }
+
+    .doubleDan2016_box03 .lottery-box .txt {
+    	width: 600px;
+    	height: 80px;
+    	position: absolute;
+    	top: 390px;
+    	left: 180px;
+    	z-index: 10;
+    	font-size: 12px;
+    	color: #fed635;
+    	line-height: 18px;
+    }
+
+    .doubleDan2016_box03 .lottery-box .btn {
+    	width: 511px;
+    	height: 102px;
+    	text-align: center;
+    	position: absolute;
+    	top: 180px;
+    	left: 220px;
+    	z-index: 10;
+    	font-size: 15px;
+    	color: #FFF;
+    }
+
+    .doubleDan2016_box03 .lottery-box .btn span {
+    	display: inline-block;
+    	margin-top: 10px;
+    	height: 36px;
+    	line-height: 36px;
+    	background: url(../img/num_bg.png) no-repeat 52% 4px;
+    }
+
+    .doubleDan2016_box03 .lottery-box .btn span > strong {
+    	color: #CC0000;
+    	font-size: 22px;
+    }
+
+    .doubleDan2016_box04 {
+    	background: url(../img/doubleDan_4.png) no-repeat top center;
+    	height: 427px;
+    }
+
+    .doubleDan2016_box04 .lottery-records {
+    	width: 920px;
+    	margin: 0 auto;
+    	padding-top: 90px;
+    	font-size: 12px;
+    	line-height: 22px;
+    	color: #edd546;
+    }
+
+
+
+
+.lottery-records
+	p
+		width 95%
+		margin 0 auto
+	span
+		padding-right 30px
+		font-size 16px
+		color #fee7a3
+		line-height 1.5
+
+
+
+.header
+	position relative
+	height 611px
+	background url(../img/hico1.png) center top no-repeat
+	.date
+		position absolute
+		top 460px
+		text-align center
+		left 0
+		right 0
+		text-indent -10px
+		line-height 36px
+		font-size 20px
+		color #44090b
+	p
+		position absolute
+		bottom 0
+		left 0
+		right 0
+		line-height 40px
+		text-align center
+		font-size 18px
+		color #edba2b
+
+
+body
+	background #930102 
+
+
